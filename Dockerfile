@@ -24,3 +24,4 @@ COPY --from=build /app/dist ./build
 EXPOSE 3000
 
 CMD ["serve", "build", "-l", "3000"]
+
